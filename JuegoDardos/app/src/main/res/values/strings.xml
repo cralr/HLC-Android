@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">JuegoDardos</string>
+    <string name="n1">1</string>
+    <string name="n2">2</string>
+    <string name="n3">3</string>
+    <string name="n4">4</string>
+    <string name="n5">5</string>
+    <string name="n6">6</string>
+    <string name="n7">7</string>
+    <string name="n8">8</string>
+    <string name="n9">9</string>
+    <string name="n10">10</string>
+    <string name="n11">11</string>
+    <string name="n12">12</string>
+    <string name="n13">13</string>
+    <string name="n14">14</string>
+    <string name="n15">15</string>
+    <string name="n16">16</string>
+    <string name="n17">17</string>
+    <string name="n18">18</string>
+    <string name="n19">19</string>
+    <string name="n20">20</string>
+    <string name="n25">25</string>
+    <string name="n50">50</string>
+    <string name="doble">Doble</string>
+    <string name="triple">Triple</string>
+    <string name="puntuacion">Jugador 1</string>
+    <string name="totalPuntos">301</string>
+    <string name="listado">Lista de Jugadores:</string>
+    <string name="jugador1">Jugador 1</string>
+    <string name="jugador2">Jugador 2</string>
+    <string name="puntuacion1">301</string>
+    <string name="puntuacion2">301</string>
+    <string name="reinicio">Reiniciar Puntuación</string>
+</resources>
