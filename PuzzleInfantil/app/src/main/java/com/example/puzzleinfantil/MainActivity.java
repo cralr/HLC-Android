@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -85,14 +86,13 @@ public class MainActivity extends AppCompatActivity {
         String[] pieza2Partida = pieza2.split("_");
         String[] pieza3Partida = pieza3.split("_");
         if (pieza1Partida[1].equals(pieza2Partida[1]) && pieza1Partida[1].equals(pieza3Partida[1])) {
-            lanzar();
+            Toast toast1 =
+                    Toast.makeText(getApplicationContext(),
+                            "Completado con Éxito.", Toast.LENGTH_SHORT);
+            toast1.show();
         }
     }
 
-    private void lanzar() {
-        Intent i = new Intent(this, Win.class );
-        startActivity(i);
-    }
 
     private void cambiarPieza(ArrayList<String> piezas, Button boton, int posicion){
         int indice = 0;
